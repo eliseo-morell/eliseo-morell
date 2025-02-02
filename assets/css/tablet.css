@@ -1,0 +1,105 @@
+/* Header */
+
+@media (min-width: 768px) {
+
+  .stiloh1 {
+    font-size: var(--fs10);
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: var(--cl2);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1000;
+    align-content: center;
+    border: 1px solid var(--cl3);
+    padding: 0;
+  }
+
+  header:hover {
+    width: 300px;
+    height: 100vh;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  header nav ul li {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 15px 0;
+    transition: color 0.3s;
+  }
+
+  header nav ul li a:hover {
+    color: var(--cl1);
+  }
+
+  main,
+  footer {
+    transition: margin-left 0.5s;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    justify-content: flex-end;
+  }
+
+  /* Main */
+  main{
+    padding-left: 200px;
+  }
+
+  /* Hero */
+  #hero {
+    height: 20vh;
+  }
+
+  #hero-video {
+    width: 50vh;
+  }
+
+  .hero-content p {
+    font-size: var(--fs8);
+  }
+
+  .box {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Products */
+  .products {
+    padding-left: 0;
+  }
+
+  .carousel-item {
+    flex: 0 0 40%;
+  }
+
+
+  /* Footer */
+  footer div {
+    padding: 20px 0;
+    margin-left: 200px;
+  }
+}

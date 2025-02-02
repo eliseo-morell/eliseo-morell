@@ -1,0 +1,54 @@
+@media (min-width: 1024px) {
+  /*Hero*/
+  #hero {
+    height: 40vh;
+  }
+
+  #hero-video {
+    width: 80vh;
+  }
+
+  .box {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  /* Footer */
+  footer div {
+    display: flex;
+    flex-direction: row;
+    text-align: none;
+  }
+
+  .copy {
+    display: flex;
+    flex-direction: row;
+
+    p{
+      text-align: left;
+    }
+  }
+
+  .term {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+  }
+}
+  
+
+@media (min-width: 1440px) {
+  /*Hero*/
+  #hero {
+    height: 55vh;
+  }
+
+  #hero-video {
+    width: 100vh;
+  }
+
+  .box {
+    width: 6rem;
+    height: 6rem;
+  }
+}
